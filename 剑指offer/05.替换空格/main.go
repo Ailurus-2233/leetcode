@@ -1,6 +1,9 @@
 package main
 
-import "strings"
+import (
+	"fmt"
+	"strings"
+)
 
 func replaceSpace(s string) string {
 	var sb strings.Builder
@@ -14,4 +17,9 @@ func replaceSpace(s string) string {
 	}
 
 	return sb.String()
+}
+
+func main() {
+	s := "hello world"
+	fmt.Println(replaceSpace(s))
 }
