@@ -4,7 +4,12 @@
 public class Solution {
 
     public static void main(String[] args) {
-        System.out.println(func("abs"));
+        Integer a = 1;
+        Integer b = 1;
+        Integer c = 500;
+        Integer d = 500;
+        System.out.println(a == b);
+        System.out.println(c == d);
     }
 
     public static String func(String s) {
@@ -15,4 +20,5 @@ public class Solution {
         }
         return String.valueOf(chars);
     }
+
 }
