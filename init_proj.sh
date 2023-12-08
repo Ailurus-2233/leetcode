@@ -1,12 +1,16 @@
 #!/bin/bash
 
+# 记录当前目录
+current_path=$(pwd)
+
 # 获取输入参数
 folder_path=$1
 programming_language=$2
+question_id=$3
 
 # 检测输入参数是否合理
-if [ -z "$folder_path" ] || [ -z "$programming_language" ]; then
-    echo "Usage: $0 <folder_path> <programming_language>"
+if [ -z "$folder_path" ] || [ -z "$programming_language" ] || [ -z "$question_id" ] ; then
+    echo "Usage: $0 <folder_path> <programming_language> <question_id>"
     exit 1
 fi
 
@@ -59,9 +63,11 @@ if [ "$init_flag" = "y" ]; then
     case $programming_language in
         "Go")
             cd "$language_folder"
-            go mod init solution
+            go mod init solution"$question_id"
             touch main.go
             echo "package main" >> main.go
+            cd "$current_path"
+            go work use "$language_folder"
         ;;
         "Java")
             # 添加 Java 的初始化步骤
