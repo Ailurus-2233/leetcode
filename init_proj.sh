@@ -74,7 +74,7 @@ if [ "$init_flag" = "y" ]; then
             cp SolutionTest.java "$language_folder"
         ;;
         "Python")
-            # 添加 Python 的初始化步骤
+            cp Solution.py "$language_folder"
         ;;
         "Csharp")
             # 添加 C# 的初始化步骤
