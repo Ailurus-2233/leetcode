@@ -77,7 +77,13 @@ if [ "$init_flag" = "y" ]; then
             cp Solution.py "$language_folder"
         ;;
         "Csharp")
-            # 添加 C# 的初始化步骤
+            cd "$language_folder"
+            dotnet new sln -n Csharp
+            dotnet new console -n Solution
+            dotnet new mstest -n SolutionTest
+            dotnet add SolutionTest/SolutionTest.csproj reference Solution/Solution.csproj
+            dotnet sln add Solution/Solution.csproj
+            dotnet sln add SolutionTest/SolutionTest.csproj
         ;;
     esac
 fi
