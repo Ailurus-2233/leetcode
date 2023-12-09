@@ -1,5 +1,3 @@
-package 题库;
-
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.HashMap;
@@ -14,7 +12,7 @@ import java.util.Map;
  */
 
 // @lc code=start
-class Solution {
+public class Solution {
     public List<List<Integer>> threeSum(int[] nums) {
         if (nums.length < 3) {
             return null;

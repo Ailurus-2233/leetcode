@@ -1,0 +1,8 @@
+{
+    "java.compile.nullAnalysis.mode": "automatic",
+    "java.configuration.updateBuildConfiguration": "automatic",
+    "java.project.referencedLibraries": [
+        "lib/**/*.jar",
+        "javalib/junit-4.13.2.jar"
+    ]
+}

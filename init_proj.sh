@@ -70,7 +70,8 @@ if [ "$init_flag" = "y" ]; then
             go work use "$language_folder"
         ;;
         "Java")
-            # 添加 Java 的初始化步骤
+            cp Solution.java "$language_folder"
+            cp SolutionTest.java "$language_folder"
         ;;
         "Python")
             # 添加 Python 的初始化步骤
