@@ -79,7 +79,8 @@ if [ "$init_flag" = "y" ]; then
             sed -i "1i package q$question_id;" SolutionTest.java
         ;;
         "Python")
-            cp Solution.py "$language_folder"
+            cp solution.py "$language_folder"
+            cp solution_test.py "$language_folder"
         ;;
         "Csharp")
             cd "$language_folder"

@@ -48,6 +48,6 @@
 1. Java测试用例：[Q1.两数之和-Java](./题库/1.两数之和/Java/q1/SolutionTest.java)
 2. Go测试用例：[Q1.两数之和-Go](./题库/1.两数之和/Go/main_test.go)
 3. C#测试用例：[Q1.两数之和-C#](./题库/1.两数之和/Csharp/SolutionTest/UnitTest1.cs)
-4. Python测试用例：[Q1.两数之和-Python](./题库/1.两数之和/Python/Solution.py)
+4. Python测试用例：[Q1.两数之和-Python](./题库/1.两数之和/Python/solution_test.py)
 
 祝编码愉快！ 🚀
