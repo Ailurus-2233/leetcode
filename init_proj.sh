@@ -70,8 +70,13 @@ if [ "$init_flag" = "y" ]; then
             go work use "$language_folder"
         ;;
         "Java")
-            cp Solution.java "$language_folder"
-            cp SolutionTest.java "$language_folder"
+            mkdir "$language_folder/q$question_id"
+            cp Solution.java "$language_folder/q$question_id"
+            cp SolutionTest.java "$language_folder/q$question_id"
+            cd "$language_folder/q$question_id"
+            # 在文件头部添加 package q$question_id 语句
+            sed -i "1i package q$question_id;" Solution.java
+            sed -i "1i package q$question_id;" SolutionTest.java
         ;;
         "Python")
             cp Solution.py "$language_folder"

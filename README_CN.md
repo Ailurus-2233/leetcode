@@ -34,12 +34,20 @@
 
 我个人使用 Visual Studio Code 进行编码任务。它是一款功能强大的编辑器，具有强大的插件系统。以下是我推荐的插件，特别适用于 LeetCode：
 
+| languaue | plugins |
 | --- | --- |
-| C# | C#, C# dev kit, C# extensions|
-| Java | Extension Pack for Java|
+| C# | C#, C# dev kit, C# extensions |
+| Java | Extension Pack for Java |
 | Go | Go |
 | Python | Python (shiro) |
 
 这些插件提升了编码体验，并为单元测试代码提供了调试功能（Python 除外，你可以使用内置的 unittest 进行调试）。
+
+## 测试用例示例
+
+1. Java测试用例：[Q1.两数之和-Java](./题库/1.两数之和/Java/q1/SolutionTest.java)
+2. Go测试用例：[Q1.两数之和-Go](./题库/1.两数之和/Go/main_test.go)
+3. C#测试用例：[Q1.两数之和-C#](./题库/1.两数之和/Csharp/SolutionTest/UnitTest1.cs)
+4. Python测试用例：[Q1.两数之和-Python](./题库/1.两数之和/Python/Solution.py)
 
 祝编码愉快！ 🚀

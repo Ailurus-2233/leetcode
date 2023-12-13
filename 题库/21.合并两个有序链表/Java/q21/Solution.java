@@ -1,4 +1,4 @@
-package 题库;
+package q21;
 /*
  * @lc app=leetcode.cn id=21 lang=java
  *

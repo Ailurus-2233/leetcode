@@ -44,4 +44,11 @@ I personally use Visual Studio Code for my coding tasks. It's an excellent edito
 
 These plugins enhance the coding experience and provide debugging capabilities for unit test code (excluding Python, where you can use the built-in unittest for debugging).
 
+## Example Test Cases
+
+1. Java test case: [Q1.两数之和-Java](./题库/1.两数之和/Java/q1/SolutionTest.java)
+2. Go test case: [Q1.两数之和-Go](./题库/1.两数之和/Go/main_test.go)
+3. C# test case: [Q1.两数之和-C#](./题库/1.两数之和/Csharp/SolutionTest/UnitTest1.cs)
+4. Python test case: [Q1.两数之和-Python](./题库/1.两数之和/Python/Solution.py)
+
 Happy coding! 🚀
