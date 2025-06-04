@@ -1,3 +1,5 @@
+# 已经归档，不再使用这个仓库记录刷题代码
+
 # LeetCode Code Repository
 
 [仓库介绍-中文](./README_CN.md)
